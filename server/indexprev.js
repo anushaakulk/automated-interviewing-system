@@ -11,7 +11,7 @@ import { OpenAI } from "./openai2.js";
 import dotenv from 'dotenv';
 dotenv.config();
 // Creating a new instance of the OpenAI class and passing in the OPENAI_KEY environment variable
-const openAI = new OpenAI("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");
+const openAI = new OpenAI("API-Key");
 const topic = 'NodeJs';
 const model = 'text-davinci-003';
 // Function to generate the prompt for the OpenAI API 
