@@ -15,7 +15,7 @@ import dotenv from 'dotenv';
 import {Question} from './todo.model.cjs';
 dotenv.config();
 // Creating a new instance of the OpenAI class and passing in the OPENAI_KEY environment variable
-const openAI = new OpenAI("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");
+const openAI = new OpenAI("API-KEY");
 const model = 'text-davinci-003';
 // Function to generate the prompt for the OpenAI API 
 // In the future, it will be moved to a helper class in the next code review
