@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import {Question} from './todo.model.cjs';
 dotenv.config();
 // Creating a new instance of the OpenAI class and passing in the OPENAI_KEY environment variable
-const openAI = new OpenAI("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");
+const openAI = new OpenAI("API-KEY");
 const topic = 'Metaverse';
 const model = 'text-davinci-003';
 // Function to generate the prompt for the OpenAI API 
